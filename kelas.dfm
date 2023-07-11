@@ -4,7 +4,7 @@ object Form9: TForm9
   Width = 684
   Height = 523
   Caption = 'DATA KELAS'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,40 +17,40 @@ object Form9: TForm9
   object Label1: TLabel
     Left = 272
     Top = 24
-    Width = 119
+    Width = 129
     Height = 23
     Caption = 'DATA KELAS'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l2: TLabel
-    Left = 32
+    Left = 88
     Top = 85
-    Width = 38
+    Width = 65
     Height = 16
     Caption = 'NAMA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
-    Left = 32
+    Left = 88
     Top = 117
-    Width = 60
+    Width = 65
     Height = 16
     Caption = 'JURUSAN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object dg1: TDBGrid
@@ -83,7 +83,7 @@ object Form9: TForm9
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 1
     OnClick = b1Click
@@ -98,7 +98,7 @@ object Form9: TForm9
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 2
     OnClick = b2Click
@@ -113,7 +113,7 @@ object Form9: TForm9
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 3
     OnClick = b3Click
@@ -128,7 +128,7 @@ object Form9: TForm9
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 4
     OnClick = b4Click
@@ -143,7 +143,7 @@ object Form9: TForm9
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 5
     OnClick = b5Click
@@ -154,18 +154,24 @@ object Form9: TForm9
     Width = 75
     Height = 26
     Caption = 'LAPORAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 6
     OnClick = Bb6Click
   end
   object edt1: TEdit
-    Left = 184
+    Left = 160
     Top = 80
     Width = 385
     Height = 21
     TabOrder = 7
   end
   object cmb1: TComboBox
-    Left = 184
+    Left = 160
     Top = 112
     Width = 385
     Height = 21
@@ -188,7 +194,6 @@ object Form9: TForm9
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -200,7 +205,6 @@ object Form9: TForm9
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_kelas')
     Params = <>

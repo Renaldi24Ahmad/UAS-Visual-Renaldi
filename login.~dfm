@@ -1,10 +1,10 @@
 object Form2: TForm2
-  Left = 227
-  Top = 192
+  Left = 203
+  Top = 188
   Width = 535
   Height = 377
   Caption = 'LOGIN'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,42 +14,42 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object Label4l2: TLabel
-    Left = 69
+    Left = 61
     Top = 117
-    Width = 72
-    Height = 16
+    Width = 84
+    Height = 18
     Caption = 'USERNAME'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Name = 'Arial Black'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
-    Left = 69
+    Left = 61
     Top = 157
-    Width = 67
-    Height = 16
+    Width = 84
+    Height = 18
     Caption = 'PASWORD'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Name = 'Arial Black'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label1: TLabel
-    Left = 208
+    Left = 192
     Top = 48
-    Width = 122
+    Width = 129
     Height = 23
     Caption = 'LOGIN USER'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Edit1: TEdit
@@ -74,9 +74,9 @@ object Form2: TForm2
     Caption = 'MASUK'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -16
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 2
     OnClick = b1Click
@@ -89,9 +89,9 @@ object Form2: TForm2
     Caption = 'DAFTAR'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -16
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 3
     OnClick = b2Click
@@ -100,7 +100,6 @@ object Form2: TForm2
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -112,7 +111,6 @@ object Form2: TForm2
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'SELECT * FROM tabel_user')
     Params = <>

@@ -10,6 +10,11 @@ uses
 
 type
   TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Button1login: TButton;
+    procedure Button1loginClick(Sender: TObject);
 
 
 
@@ -25,6 +30,15 @@ var
 
 implementation
 
+uses login;
+
 {$R *.dfm}
 
+procedure TForm1.Button1loginClick(Sender: TObject);
+begin
+hide;
+Form2.show;
+end;
+
 end.
+

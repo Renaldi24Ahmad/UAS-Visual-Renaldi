@@ -4,7 +4,7 @@ object Form8: TForm8
   Width = 687
   Height = 530
   Caption = 'DATA POIN'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,66 +17,66 @@ object Form8: TForm8
   object Label1: TLabel
     Left = 272
     Top = 24
-    Width = 109
+    Width = 121
     Height = 23
     Caption = 'DATA POIN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l2: TLabel
-    Left = 32
+    Left = 56
     Top = 77
-    Width = 72
+    Width = 81
     Height = 16
     Caption = 'NAMA POIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
-    Left = 32
+    Left = 56
     Top = 125
-    Width = 71
+    Width = 81
     Height = 16
     Caption = 'JENIS POIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l4: TLabel
-    Left = 32
+    Left = 56
     Top = 149
-    Width = 48
+    Width = 81
     Height = 16
     Caption = 'STATUS'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 32
+    Left = 56
     Top = 101
-    Width = 45
+    Width = 81
     Height = 16
     Caption = 'BOBOT'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object dg1: TDBGrid
@@ -109,7 +109,7 @@ object Form8: TForm8
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 1
     OnClick = b1Click
@@ -124,7 +124,7 @@ object Form8: TForm8
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 2
     OnClick = b2Click
@@ -139,7 +139,7 @@ object Form8: TForm8
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 3
     OnClick = b3Click
@@ -154,7 +154,7 @@ object Form8: TForm8
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 4
     OnClick = b4Click
@@ -169,7 +169,7 @@ object Form8: TForm8
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 5
     OnClick = b5Click
@@ -180,25 +180,31 @@ object Form8: TForm8
     Width = 75
     Height = 26
     Caption = 'LAPORAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 6
     OnClick = Bb6Click
   end
   object edt1: TEdit
-    Left = 184
+    Left = 152
     Top = 72
     Width = 385
     Height = 21
     TabOrder = 7
   end
   object edt2: TEdit
-    Left = 184
+    Left = 152
     Top = 96
     Width = 385
     Height = 21
     TabOrder = 8
   end
   object cmb1: TComboBox
-    Left = 184
+    Left = 152
     Top = 120
     Width = 385
     Height = 21
@@ -218,7 +224,7 @@ object Form8: TForm8
     OnClick = Button1Click
   end
   object cmb2: TComboBox
-    Left = 184
+    Left = 152
     Top = 144
     Width = 385
     Height = 21
@@ -232,7 +238,6 @@ object Form8: TForm8
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -244,7 +249,6 @@ object Form8: TForm8
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_poin')
     Params = <>

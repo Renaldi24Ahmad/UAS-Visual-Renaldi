@@ -1,10 +1,10 @@
 object Form4: TForm4
-  Left = 348
-  Top = 326
+  Left = 755
+  Top = 236
   Width = 465
   Height = 285
   Caption = 'MENU'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,16 +15,16 @@ object Form4: TForm4
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 192
+    Left = 184
     Top = 24
-    Width = 64
-    Height = 27
+    Width = 73
+    Height = 23
     Caption = 'MENU'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
-    Font.Name = 'Arial Black'
-    Font.Style = [fsBold]
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Button1: TButton
@@ -33,6 +33,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'ORANG TUA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 0
     OnClick = Button1Click
   end
@@ -42,6 +48,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'SISWA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 1
     OnClick = Button2Click
   end
@@ -51,6 +63,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'WALI KELAS'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 2
     OnClick = Button3Click
   end
@@ -60,6 +78,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'POIN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 3
     OnClick = Button4Click
   end
@@ -69,6 +93,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'KELAS'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 4
     OnClick = Button5Click
   end
@@ -78,6 +108,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'HUBUNGAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 5
     OnClick = Button6Click
   end
@@ -87,6 +123,12 @@ object Form4: TForm4
     Width = 89
     Height = 33
     Caption = 'SEMESTER'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 6
     OnClick = Button7Click
   end
@@ -97,10 +139,10 @@ object Form4: TForm4
     Height = 33
     Caption = 'DATA USER'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -11
+    Font.Color = clWindowText
+    Font.Height = -12
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 7
     OnClick = Button8Click

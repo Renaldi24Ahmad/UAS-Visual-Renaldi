@@ -4,7 +4,7 @@ object Form6: TForm6
   Width = 682
   Height = 629
   Caption = 'Data Siswa'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,66 +17,66 @@ object Form6: TForm6
   object Label4l2: TLabel
     Left = 32
     Top = 77
-    Width = 21
+    Width = 33
     Height = 16
     Caption = 'NIS'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
     Left = 32
     Top = 125
-    Width = 38
+    Width = 39
     Height = 16
     Caption = 'NAMA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l4: TLabel
     Left = 32
     Top = 149
-    Width = 21
+    Width = 41
     Height = 16
     Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l5: TLabel
     Left = 32
     Top = 173
-    Width = 91
+    Width = 105
     Height = 16
     Caption = 'TEMPAT LAHIR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l6: TLabel
     Left = 32
     Top = 197
-    Width = 101
+    Width = 113
     Height = 16
     Caption = 'TANGGAL LAHIR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label1: TLabel
@@ -89,72 +89,72 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label2: TLabel
     Left = 32
     Top = 221
-    Width = 97
+    Width = 105
     Height = 16
     Caption = 'JENIS KELAMIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label3: TLabel
     Left = 32
     Top = 245
-    Width = 51
+    Width = 65
     Height = 16
     Caption = 'ALAMAT'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4: TLabel
     Left = 32
     Top = 269
-    Width = 60
+    Width = 65
     Height = 16
     Caption = 'TELEPON'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label5: TLabel
     Left = 32
     Top = 293
-    Width = 48
+    Width = 65
     Height = 16
     Caption = 'STATUS'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label6: TLabel
     Left = 32
     Top = 101
-    Width = 30
+    Width = 57
     Height = 16
     Caption = 'NISN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object dg1: TDBGrid
@@ -187,7 +187,7 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 1
     OnClick = b1Click
@@ -202,7 +202,7 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 2
     OnClick = b2Click
@@ -217,7 +217,7 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 3
     OnClick = b3Click
@@ -232,7 +232,7 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 4
     OnClick = b4Click
@@ -247,7 +247,7 @@ object Form6: TForm6
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 5
     OnClick = b5Click
@@ -258,60 +258,66 @@ object Form6: TForm6
     Width = 75
     Height = 26
     Caption = 'LAPORAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 6
     OnClick = Bb6Click
   end
   object edt1: TEdit
-    Left = 184
+    Left = 152
     Top = 72
     Width = 385
     Height = 21
     TabOrder = 7
   end
   object edt2: TEdit
-    Left = 184
+    Left = 152
     Top = 96
     Width = 385
     Height = 21
     TabOrder = 8
   end
   object edt3: TEdit
-    Left = 184
+    Left = 152
     Top = 120
     Width = 385
     Height = 21
     TabOrder = 9
   end
   object edt4: TEdit
-    Left = 184
+    Left = 152
     Top = 144
     Width = 385
     Height = 21
     TabOrder = 10
   end
   object edt5: TEdit
-    Left = 184
+    Left = 152
     Top = 168
     Width = 385
     Height = 21
     TabOrder = 11
   end
   object edt7: TEdit
-    Left = 184
+    Left = 152
     Top = 240
     Width = 385
     Height = 21
     TabOrder = 12
   end
   object edt8: TEdit
-    Left = 184
+    Left = 152
     Top = 264
     Width = 385
     Height = 21
     TabOrder = 13
   end
   object cmb1: TComboBox
-    Left = 184
+    Left = 152
     Top = 216
     Width = 385
     Height = 21
@@ -322,7 +328,7 @@ object Form6: TForm6
       'P')
   end
   object cmb2: TComboBox
-    Left = 184
+    Left = 152
     Top = 288
     Width = 385
     Height = 21
@@ -333,7 +339,7 @@ object Form6: TForm6
       'tidak')
   end
   object dtp1: TDateTimePicker
-    Left = 184
+    Left = 152
     Top = 192
     Width = 385
     Height = 21
@@ -342,7 +348,7 @@ object Form6: TForm6
     TabOrder = 16
   end
   object edt6: TEdit
-    Left = 184
+    Left = 152
     Top = 192
     Width = 385
     Height = 21
@@ -361,7 +367,6 @@ object Form6: TForm6
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -373,7 +378,6 @@ object Form6: TForm6
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_siswa')
     Params = <>

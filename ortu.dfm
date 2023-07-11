@@ -1,10 +1,10 @@
 object Form5: TForm5
-  Left = 362
-  Top = 163
+  Left = 208
+  Top = 75
   Width = 793
   Height = 675
   Caption = 'Data Orang Tua'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,165 +15,165 @@ object Form5: TForm5
   PixelsPerInch = 96
   TextHeight = 13
   object Label4l2: TLabel
-    Left = 32
+    Left = 80
     Top = 77
-    Width = 21
+    Width = 25
     Height = 16
     Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
-    Left = 32
+    Left = 80
     Top = 101
-    Width = 38
+    Width = 49
     Height = 16
     Caption = 'NAMA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l4: TLabel
-    Left = 32
+    Left = 80
     Top = 125
-    Width = 78
+    Width = 89
     Height = 16
     Caption = 'PENDIDIKAN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l5: TLabel
-    Left = 32
+    Left = 80
     Top = 149
-    Width = 78
+    Width = 81
     Height = 16
     Caption = 'PEKERJAAN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l6: TLabel
-    Left = 32
+    Left = 80
     Top = 173
-    Width = 32
+    Width = 41
     Height = 16
     Caption = 'TELP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label1: TLabel
     Left = 328
     Top = 24
-    Width = 113
+    Width = 121
     Height = 23
     Caption = 'DATA ORTU'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 32
+    Left = 80
     Top = 197
-    Width = 51
+    Width = 65
     Height = 16
     Caption = 'ALAMAT'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 32
+    Left = 80
     Top = 221
-    Width = 97
+    Width = 105
     Height = 16
     Caption = 'JENIS KELAMIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 32
+    Left = 80
     Top = 245
-    Width = 48
+    Width = 49
     Height = 16
     Caption = 'AGAMA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label5: TLabel
-    Left = 32
+    Left = 80
     Top = 269
-    Width = 48
+    Width = 57
     Height = 16
     Caption = 'STATUS'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Edit1: TEdit
-    Left = 224
+    Left = 200
     Top = 77
     Width = 455
     Height = 21
     TabOrder = 0
   end
   object Edit2: TEdit
-    Left = 224
+    Left = 200
     Top = 101
     Width = 455
     Height = 21
     TabOrder = 1
   end
   object Edit3: TEdit
-    Left = 224
+    Left = 200
     Top = 125
     Width = 455
     Height = 21
     TabOrder = 2
   end
   object Edit4: TEdit
-    Left = 224
+    Left = 200
     Top = 149
     Width = 455
     Height = 21
     TabOrder = 3
   end
   object Edit5: TEdit
-    Left = 224
+    Left = 200
     Top = 173
     Width = 455
     Height = 21
@@ -209,7 +209,7 @@ object Form5: TForm5
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 6
     OnClick = b1Click
@@ -224,7 +224,7 @@ object Form5: TForm5
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 7
     OnClick = b2Click
@@ -239,7 +239,7 @@ object Form5: TForm5
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 8
     OnClick = b3Click
@@ -254,7 +254,7 @@ object Form5: TForm5
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 9
     OnClick = b4Click
@@ -269,7 +269,7 @@ object Form5: TForm5
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 10
     OnClick = b5Click
@@ -280,25 +280,31 @@ object Form5: TForm5
     Width = 97
     Height = 41
     Caption = 'LAPORAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
     TabOrder = 11
     OnClick = Bb6Click
   end
   object edt1: TEdit
-    Left = 224
+    Left = 200
     Top = 197
     Width = 455
     Height = 21
     TabOrder = 12
   end
   object edt2: TEdit
-    Left = 224
+    Left = 200
     Top = 245
     Width = 455
     Height = 21
     TabOrder = 13
   end
   object ComboBox1: TComboBox
-    Left = 224
+    Left = 200
     Top = 222
     Width = 453
     Height = 21
@@ -309,7 +315,7 @@ object Form5: TForm5
       'P')
   end
   object ComboBox2: TComboBox
-    Left = 224
+    Left = 200
     Top = 272
     Width = 457
     Height = 21
@@ -332,7 +338,6 @@ object Form5: TForm5
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -344,7 +349,6 @@ object Form5: TForm5
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tabel_ortu')
     Params = <>

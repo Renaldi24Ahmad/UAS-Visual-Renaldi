@@ -1,10 +1,10 @@
 object Form3: TForm3
-  Left = 479
-  Top = 172
+  Left = 190
+  Top = 183
   Width = 537
   Height = 391
   Caption = 'DAFTAR'
-  Color = clSkyBlue
+  Color = clGrayText
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,29 +14,29 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object Label4l2: TLabel
-    Left = 69
+    Left = 37
     Top = 117
-    Width = 72
-    Height = 16
+    Width = 100
+    Height = 18
     Caption = 'USERNAME'
-    Font.Charset = ANSI_CHARSET
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label4l3: TLabel
-    Left = 69
+    Left = 37
     Top = 152
-    Width = 67
-    Height = 16
+    Width = 92
+    Height = 18
     Caption = 'PASWORD'
-    Font.Charset = ANSI_CHARSET
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label1: TLabel
@@ -49,33 +49,33 @@ object Form3: TForm3
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 69
+    Left = 37
     Top = 184
-    Width = 41
-    Height = 16
+    Width = 46
+    Height = 18
     Caption = 'LEVEL'
-    Font.Charset = ANSI_CHARSET
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 69
+    Left = 37
     Top = 216
-    Width = 50
-    Height = 16
+    Width = 76
+    Height = 18
     Caption = 'STATUS'
-    Font.Charset = ANSI_CHARSET
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
   end
   object Edit1: TEdit
@@ -100,9 +100,9 @@ object Form3: TForm3
     Caption = 'DAFTAR'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -16
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 2
     OnClick = b1Click
@@ -115,9 +115,9 @@ object Form3: TForm3
     Caption = 'LOGIN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -16
     Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Style = [fsBold, fsItalic]
     ParentFont = False
     TabOrder = 3
     OnClick = b2Click
@@ -148,7 +148,6 @@ object Form3: TForm3
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'database_siswa'
@@ -160,7 +159,6 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'SELECT * FROM tabel_user')
     Params = <>
